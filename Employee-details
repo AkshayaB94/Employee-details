@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+typedef struct
+{
+ 
+    char name[30];
+    int phonenumber;
+    int salary;
+ 
+} 
+Employee;
+ 
+int main()
+{
+    int i, n=3;
+ 
+    Employee employees[n];
+ 
+    //Taking each employee detail as input
+ 
+    printf("Enter %d Employee Details \n \n",n);
+    for(i=0; i<n; i++)
+    {
